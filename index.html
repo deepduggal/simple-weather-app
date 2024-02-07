@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/qweather-icons@1.6.0/font/qweather-icons.css">
+  <title>Weather App</title>
+</head>
+
+<body>
+  <form id="getWeatherForm">
+    <label for="location">Location (City, State):</label>
+    <input type="text" id="cityState" value="Raleigh,NC" placeholder="City,State" name="location">
+    <input type="submit" value="Submit">
+  </form>
+  <div id="currentWeather">
+    <!-- Icon -->
+    <i></i>
+    <!-- Description -->
+    <h2></h2>
+    <!-- Temperature -->
+    <p></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
